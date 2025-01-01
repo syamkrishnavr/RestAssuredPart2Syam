@@ -32,7 +32,7 @@ public class Authentications {// api details in postman
 
     @Test
     void testBearerToken(){
-        String bearerToken = "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";
+        String bearerToken = "";
 
         given().headers("Authorization","Bearer " + bearerToken)
                 .when().get("https://api.github.com/user/repos")
