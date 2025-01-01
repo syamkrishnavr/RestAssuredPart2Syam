@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="UserManagementSuite">
+    <test name="UserManagementTests">
+        <classes>
+            <class name="Part8.CreateUser" />
+            <class name="Part8.GetUser" />
+            <class name="Part8.UpdateUser" />
+            <class name="Part8.DeleteUser" />
+        </classes>
+    </test>
+</suite>
